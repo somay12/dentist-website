@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Dental Clinic - Your Smile, Our Passion</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦷%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">🦷</span>
+                <span class="logo-text">Smile Dental</span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#privacy" class="nav-link">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="#terms" class="nav-link">Terms of Service</a></li>
+                    <li class="nav-item nav-book-mobile"><a href="#contact" class="nav-link button button-primary">Book Appointment</a></li>
+                </ul>
+                <button class="nav-close" id="nav-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <a href="#contact" class="nav-book button button-primary header-cta">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>Book Appointment</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="hero container">
+                <div class="hero-content">
+                    <span class="hero-badge">🌟 Excellence in Dental Care</span>
+                    <h1 class="hero-title">
+                        Your Perfect Smile<br>
+                        <span class="gradient-text">Starts Here</span>
+                    </h1>
+                    <p class="hero-description">
+                        Experience world-class dental care with our team of expert dentists. 
+                        We combine advanced technology with gentle care to give you the smile you deserve.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="button button-primary">Book Appointment</a>
+                        <a href="#services" class="button button-secondary">Our Services</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-label">Happy Patients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.9</span>
+                            <span class="stat-label">Rating ⭐</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-card">
+                        <div class="card-icon">🦷</div>
+                        <div class="card-content">
+                            <h3>Professional Care</h3>
+                            <p>Advanced treatments for the whole family</p>
+                        </div>
+                    </div>
+                    <div class="hero-card hero-card-secondary">
+                        <div class="card-icon">✨</div>
+                        <div class="card-content">
+                            <h3>Modern Technology</h3>
+                            <p>State-of-the-art equipment</p>
+                        </div>
+                    </div>
+                    <div class="hero-image-main">
+                        <div class="image-placeholder">
+                            <div class="placeholder-content">
+                                <span class="emoji-large">😁</span>
+                                <span class="placeholder-text">Healthy Smile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Our Services</span>
+                    <h2 class="section-title">Comprehensive Dental Care</h2>
+                    <p class="section-description">
+                        From routine checkups to advanced cosmetic procedures, we offer a full range of dental services.
+                    </p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card" id="service-cleaning">
+                        <div class="service-icon">🪥</div>
+                        <h3 class="service-title">Teeth Cleaning</h3>
+                        <p class="service-description">
+                            Professional deep cleaning to remove plaque and tartar, keeping your smile bright and healthy.
+                        </p>
+                        <a href="#contact" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <div class="service-card" id="service-whitening">
+                        <div class="service-icon">✨</div>
+                        <h3 class="service-title">Teeth Whitening</h3>
+                        <p class="service-description">
+                            Advanced whitening treatments to restore your teeth to their natural brilliance.
+                        </p>
+                        <a href="#contact" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <div class="service-card" id="service-implants">
+                        <div class="service-icon">🦷</div>
+                        <h3 class="service-title">Dental Implants</h3>
+                        <p class="service-description">
+                            Permanent tooth replacement solutions that look and feel like natural teeth.
+                        </p>
+                        <a href="#contact" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <div class="service-card" id="service-orthodontics">
+                        <div class="service-icon">😁</div>
+                        <h3 class="service-title">Orthodontics</h3>
+                        <p class="service-description">
+                            Braces and aligners to straighten teeth and correct bite issues for all ages.
+                        </p>
+                        <a href="#contact" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <div class="service-card" id="service-root-canal">
+                        <div class="service-icon">🛡️</div>
+                        <h3 class="service-title">Root Canal</h3>
+                        <p class="service-description">
+                            Gentle and effective root canal therapy to save damaged teeth and relieve pain.
+                        </p>
+                        <a href="#contact" class="service-link">Learn More →</a>
+                    </div>
+                    
+                    <div class="service-card" id="service-pediatric">
+                        <div class="service-icon">👶</div>
+                        <h3 class="service-title">Pediatric Dentistry</h3>
+                        <p class="service-description">
+                            Friendly, gentle dental care designed specifically for children of all ages.
+                        </p>
+                        <a href="#contact" class="service-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <span class="section-badge">About Us</span>
+                        <h2 class="section-title">Trusted Dental Care You Can Rely On</h2>
+                        <p class="about-description">
+                            At Smile Dental Clinic, we believe that everyone deserves a healthy, beautiful smile. 
+                            Our team of experienced dentists is dedicated to providing the highest quality dental care 
+                            in a comfortable and welcoming environment.
+                        </p>
+                        <ul class="about-features">
+                            <li class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <span>Board-certified dentists with 15+ years experience</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <span>State-of-the-art dental equipment & technology</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <span>Comfortable, pain-free treatments</span>
+                            </li>
+                            <li class="feature-item">
+                                <span class="feature-icon">✓</span>
+                                <span>Flexible payment plans & insurance accepted</span>
+                            </li>
+                        </ul>
+                        <a href="#team" class="button button-primary">Meet Our Team</a>
+                    </div>
+                    <div class="about-image">
+                        <div class="about-image-card">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=800&fit=crop&crop=face" alt="Dr. Smith" class="about-img" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team section" id="team">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Our Team</span>
+                    <h2 class="section-title">Meet Our Expert Dentists</h2>
+                    <p class="section-description">
+                        Our team of experienced professionals is dedicated to providing you with the best dental care possible.
+                    </p>
+                </div>
+                
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face" alt="Dr. Rajesh Sharma" class="team-img" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Dr. Rajesh Sharma</h3>
+                            <p class="team-role">Lead Dentist & Founder</p>
+                            <p class="team-bio">15+ years of experience in cosmetic and restorative dentistry. Graduated from AIIMS, New Delhi.</p>
+                            <div class="team-social">
+                                <a href="mailto:dr.sharma@smiledental.com" class="team-social-link" aria-label="Email">✉️</a>
+                                <a href="tel:+919876543210" class="team-social-link" aria-label="Call">📞</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop&crop=face" alt="Dr. Priya Patel" class="team-img" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Dr. Priya Patel</h3>
+                            <p class="team-role">Orthodontist Specialist</p>
+                            <p class="team-bio">Expert in braces and aligners with 10+ years of experience. Specializes in smile makeovers.</p>
+                            <div class="team-social">
+                                <a href="mailto:dr.priya@smiledental.com" class="team-social-link" aria-label="Email">✉️</a>
+                                <a href="tel:+919876543210" class="team-social-link" aria-label="Call">📞</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop&crop=face" alt="Dr. Amit Kumar" class="team-img" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Dr. Amit Kumar</h3>
+                            <p class="team-role">Oral Surgeon</p>
+                            <p class="team-bio">Specializes in dental implants and oral surgery. 12+ years of surgical experience.</p>
+                            <div class="team-social">
+                                <a href="mailto:dr.amit@smiledental.com" class="team-social-link" aria-label="Email">✉️</a>
+                                <a href="tel:+919876543210" class="team-social-link" aria-label="Call">📞</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face" alt="Dr. Sneha Reddy" class="team-img" loading="lazy">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="team-name">Dr. Sneha Reddy</h3>
+                            <p class="team-role">Pediatric Dentist</p>
+                            <p class="team-bio">Gentle and friendly approach to children's dentistry. Makes dental visits fun and comfortable.</p>
+                            <div class="team-social">
+                                <a href="mailto:dr.sneha@smiledental.com" class="team-social-link" aria-label="Email">✉️</a>
+                                <a href="tel:+919876543210" class="team-social-link" aria-label="Call">📞</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section" id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Testimonials</span>
+                    <h2 class="section-title">What Our Patients Say</h2>
+                    <p class="section-description">
+                        Don't just take our word for it. Here's what our patients have to say about their experience.
+                    </p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Best dental experience I've ever had! The staff is incredibly friendly and the treatment was painless. Highly recommend!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">JD</div>
+                            <div class="author-info">
+                                <h4>John Doe</h4>
+                                <span>Patient since 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "I was terrified of going to the dentist, but Dr. Smith made me feel so comfortable. The results are amazing!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SM</div>
+                            <div class="author-info">
+                                <h4>Sarah Miller</h4>
+                                <span>Patient since 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "My kids actually look forward to their dental appointments now. The pediatric team is wonderful with children!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MJ</div>
+                            <div class="author-info">
+                                <h4>Michael Johnson</h4>
+                                <span>Patient since 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <span class="section-badge">Contact Us</span>
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="contact-description">
+                            Ready to schedule your appointment? We'd love to hear from you. 
+                            Reach out today and take the first step towards a healthier smile.
+                        </p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <h4>Address</h4>
+                                    <p>123 Dental Street, Medical District<br>New York, NY 10001</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p><a href="tel:+919876543210" class="contact-link">+91 98765 43210</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">✉️</span>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:info@smiledental.com" class="contact-link">info@smiledental.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">🕐</span>
+                                <div>
+                                    <h4>Hours</h4>
+                                    <p>Mon-Fri: 9AM - 6PM<br>Sat: 10AM - 4PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <h3 class="form-title">Book an Appointment</h3>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="cleaning">Teeth Cleaning</option>
+                                    <option value="whitening">Teeth Whitening</option>
+                                    <option value="implants">Dental Implants</option>
+                                    <option value="orthodontics">Orthodontics</option>
+                                    <option value="root-canal">Root Canal</option>
+                                    <option value="pediatric">Pediatric Dentistry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message (Optional)</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Tell us about your dental needs..."></textarea>
+                            </div>
+                            <button type="submit" class="button button-primary button-full">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Policy Section -->
+        <section class="policy-section section" id="privacy">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Legal</span>
+                    <h2 class="section-title">Privacy Policy</h2>
+                </div>
+                <div class="policy-content">
+                    <div class="policy-block">
+                        <h3>Information We Collect</h3>
+                        <p>We collect personal information such as your name, email, phone number, and medical history when you book an appointment or contact us. This helps us provide better dental care and communicate effectively.</p>
+                    </div>
+                    <div class="policy-block">
+                        <h3>How We Use Your Information</h3>
+                        <p>Your information is used solely for appointment scheduling, treatment planning, and follow-up care. We never sell or share your personal data with third parties without your consent.</p>
+                    </div>
+                    <div class="policy-block">
+                        <h3>Data Security</h3>
+                        <p>We implement industry-standard security measures to protect your personal and medical information from unauthorized access, disclosure, or misuse.</p>
+                    </div>
+                    <div class="policy-block">
+                        <h3>Your Rights</h3>
+                        <p>You have the right to access, update, or request deletion of your personal data. Contact us at info@smiledental.com for any privacy-related concerns.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Terms of Service Section -->
+        <section class="policy-section section" id="terms">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Legal</span>
+                    <h2 class="section-title">Terms of Service</h2>
+                </div>
+                <div class="policy-content">
+                    <div class="policy-block">
+                        <h3>Acceptance of Terms</h3>
+                        <p>By accessing or using our services, you agree to be bound by these Terms of Service. If you do not agree, please do not use our website or services.</p>
+                    </div>
+                    <div class="policy-block">
+                        <h3>Appointment Cancellation</h3>
+                        <p>We request at least 24 hours notice for appointment cancellations. Late cancellations or no-shows may be subject to a cancellation fee.</p>
+                    </div>
+                    <div class="policy-block">
+                        <h3>Payment & Insurance</h3>
+                        <p>Payment is due at the time of service unless prior arrangements have been made. We accept most major insurance plans. Please bring your insurance card to every visit.</p>
+                    </div>
+                    <div class="policy-block">
+                        <h3>Limitation of Liability</h3>
+                        <p>Smile Dental Clinic is not liable for any indirect, incidental, or consequential damages arising from the use of our services. Our liability is limited to the amount paid for the specific service.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Mobile CTA -->
+    <a href="tel:+919876543210" class="floating-cta" aria-label="Call us">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">🦷</span>
+                        <span class="logo-text">Smile Dental</span>
+                    </a>
+                    <p class="footer-description">
+                        Your trusted partner in dental health. We're committed to giving you the smile you deserve.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">📸</a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">🐦</a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#service-cleaning">Teeth Cleaning</a></li>
+                        <li><a href="#service-whitening">Whitening</a></li>
+                        <li><a href="#service-implants">Implants</a></li>
+                        <li><a href="#service-orthodontics">Orthodontics</a></li>
+                        <li><a href="#service-root-canal">Root Canal</a></li>
+                        <li><a href="#service-pediatric">Pediatric Dentistry</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for dental tips and updates.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="button button-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Smile Dental Clinic. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy-policy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                    <a href="terms-of-service.html" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
